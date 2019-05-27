@@ -1,0 +1,104 @@
+#home .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align Icons to Left */
+#home .items .item {
+  display: flex;
+  text-align: left;
+}
+
+#home .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0rem;
+    font-size: 0.6rem;
+  }
+
+  #showcase .showcase-content {
+    top: 150px;
+    margin-top: -4rem;
+  }
+
+  #news {
+    height: 80%;
+    padding-bottom: 1rem;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  #about {
+    display: block;
+  }
+  #about .about-img {
+    display: none;
+  }
+
+  #menu .items .item {
+    display: block;
+    text-align: center;
+  }
+
+  #menu .items .item img {
+    width: 100%;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .img {
+    height: 200px;
+  }
+
+  #info {
+    height: 80%;
+  }
+  /* Keeps height format correct for mobile devices */
+  #experience {
+    height: 0%;
+  }
+
+  .item {
+    border-bottom: 1px solid #ffcf40;
+  }
+
+  .item:last-child {
+    border-bottom: none;
+  }
+
+  .border {
+    padding-bottom: 20%;
+    border-bottom: 5px solid #ffcf40;
+  }
+  .paypal {
+    margin-right: 0 !important;
+    margin-left: 2rem !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem !important;
+  }
+
+  #news ul {
+    margin-left: 15%;
+    text-align: justify;
+  }
+}
